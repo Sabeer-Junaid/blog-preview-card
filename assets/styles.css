@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    background-color: var(--yellowish);
+}
+
+:root {
+    --yellowish: hsl(46, 90%, 64%);
+}
+
+#main-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 12rem;
+    background-color: white;
+    margin-top: 2rem;
+}
