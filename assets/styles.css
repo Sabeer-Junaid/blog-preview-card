@@ -1,25 +1,47 @@
 body {
-    height: 100vh;
-    background-color: var(--yellowish);
-    display: flex;
-    flex-direction: column;
+  height: 100vh;
+  background-color: var(--yellowish);
+  display: flex;
+  flex-direction: column;
 }
 
 :root {
-    --yellowish: hsl(46, 90%, 64%);
+  --yellowish: hsl(46, 90%, 64%);
 }
 
 #main-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 23rem;
-    width: 16rem;
-    background-color: white;
-    margin-top: 4rem;
-    border-radius: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 7px 6px 0px rgb(0, 0, 0);
-    border: black solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 29rem;
+  width: 20rem;
+  background-color: white;
+  margin-top: 2rem;
+  border-radius: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 7px 6px 0px rgb(0, 0, 0);
+  border: black solid 1px;
+}
+
+#img-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -16rem;
+}
+
+#tags {
+  display: flex;
+  position: absolute;
+  margin-left: -11.5rem;
+  background-color: var(--yellowish);
+  height: 2rem;
+  border-radius: 0.4rem;
+}
+
+#tags p {
+  margin-top: 0.2rem;
+  font-family: "figtree", sans-serif;
+  font-weight: 500;
 }
