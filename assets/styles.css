@@ -30,14 +30,14 @@ body {
   border: black solid 1px;
 }
 
-#img-cover {
+.img-cover {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: -16rem;
 }
 
-#tags {
+.tags {
   display: flex;
   position: absolute;
   margin-left: -11.5rem;
@@ -46,13 +46,13 @@ body {
   border-radius: 0.4rem;
 }
 
-#tags p {
+.tags p {
   margin-top: 0.2rem;
   font-family: "figtree", sans-serif;
   font-weight: 500;
 }
 
-#card-date {
+.card-date {
   position: absolute;
   margin-top: 5rem;
   margin-left: -7.5rem;
@@ -62,7 +62,7 @@ body {
   font-size: 15px;
 }
 
-#card-title {
+.card-title {
   position: absolute;
   margin-top: 11rem;
   font-size: 19px;
@@ -71,7 +71,7 @@ body {
   font-weight: 800;
 }
 
-#card-message {
+.card-message {
   position: absolute;
   margin-top: 18rem;
   font-size: 14px;
@@ -90,7 +90,7 @@ body {
   border-radius: 1rem;
 }
 
-#card-author {
+.card-author {
   position: absolute;
   margin-top: 26.4rem;
   margin-left: -5rem;
@@ -99,7 +99,7 @@ body {
   font-size: 16px;
 }
 
-#watermark {
+.watermark {
   font-size: 12px;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
