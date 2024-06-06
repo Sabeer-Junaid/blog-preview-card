@@ -5,7 +5,7 @@ This is a solution to the Blog preview card challenge on Frontend Mentor. Fronte
 ## Table of contents
 
 - [Screenshot](#screenshot)
-  - [Links](#links)
+- [Links](#links)
 - [Built with](#built-with)
 - [Author](#author)
 
