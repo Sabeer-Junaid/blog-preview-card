@@ -1,12 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--yellowish);
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  place-content: center;
 }
 
 :root {
   --yellowish: hsl(46, 90%, 64%);
+  --grey: hsl(0, 0%, 50%);
 }
 
 #main-card {
@@ -16,7 +23,6 @@ body {
   height: 29rem;
   width: 20rem;
   background-color: white;
-  margin-top: 2rem;
   border-radius: 1.5rem;
   margin-left: auto;
   margin-right: auto;
@@ -44,4 +50,58 @@ body {
   margin-top: 0.2rem;
   font-family: "figtree", sans-serif;
   font-weight: 500;
+}
+
+#card-date {
+  position: absolute;
+  margin-top: 5rem;
+  margin-left: -7.5rem;
+  margin-top: 6.5rem;
+  font-family: "figtree", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+#card-title {
+  position: absolute;
+  margin-top: 11rem;
+  font-size: 19px;
+  margin-left: -3.5rem;
+  font-family: "figtree", sans-serif;
+  font-weight: 800;
+}
+
+#card-message {
+  position: absolute;
+  margin-top: 18rem;
+  font-size: 14px;
+  font-family: "figtree", sans-serif;
+  font-weight: 500;
+  color: var(--grey);
+  width: 19rem;
+}
+
+.pfp {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  margin-top: 25.1rem;
+  margin-left: -15rem;
+  border-radius: 1rem;
+}
+
+#card-author {
+  position: absolute;
+  margin-top: 26.4rem;
+  margin-left: -5rem;
+  font-family: "figtree", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#watermark {
+  font-size: 12px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  margin-top: 1rem;
 }
