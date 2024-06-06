@@ -11,12 +11,13 @@ This is a solution to the Blog preview card challenge on Frontend Mentor. Fronte
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![FireShot Capture 001 - Blog Preview Card - sabeer-junaid github io](https://github.com/Sabeer-Junaid/blog-preview-card/assets/59570904/67dfe422-8d70-4533-9b2d-f690755cf647)
+
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Sabeer-Junaid/blog-preview-card
+- Live Site URL: https://sabeer-junaid.github.io/blog-preview-card
 
 ### Built with
 
@@ -28,6 +29,5 @@ This is a solution to the Blog preview card challenge on Frontend Mentor. Fronte
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Sabeer Junaid](https://sabeer-junaid.github.io/LinkNest/)
+- Frontend Mentor - [@sabeerjunaid](https://www.frontendmentor.io/profile/Sabeer-Junaid)
