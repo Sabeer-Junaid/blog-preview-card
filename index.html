@@ -21,7 +21,7 @@
 
     <title>Blog Preview Card</title>
 
-    <!-- Favicon -->
+    <!-- Favicon-->
     <link rel="icon" href="assets/images/logo.png" />
     <!-- Font Awesome icons -->
     <link
@@ -39,50 +39,54 @@
 
   <body>
     <!-- Main -->
-    <div id="main-card" class="container">
-      <div id="img-cover" class="container">
-        <img
-          src="assets/images/illustration-article.svg"
-          width="285px"
-          style="border-radius: 1rem"
-        />
-      </div>
-      <div id="tags">
-        <p>
-          <strong
-            >&nbsp;&nbsp;&nbsp;&nbsp;Learning&nbsp;&nbsp;&nbsp;&nbsp;</strong
-          >
+    <main>
+      <div id="main-card" class="container">
+        <div class="img-cover" class="container">
+          <img
+            src="assets/images/illustration-article.svg"
+            width="285px"
+            style="border-radius: 1rem"
+            alt="cover"
+          />
+        </div>
+        <div class="tags">
+          <p>
+            <strong
+              >&nbsp;&nbsp;&nbsp;&nbsp;Learning&nbsp;&nbsp;&nbsp;&nbsp;</strong
+            >
+          </p>
+        </div>
+
+        <!-- Card Date -->
+        <p class="card-date">Published 6 June 2024</p>
+        <!-- Card Title -->
+        <h1 class="card-title">HTML & CSS foundations</h1>
+        <!-- Card Message -->
+        <p class="container card-message">
+          These languages are the backbone of every website, defining structure,
+          content, and presentation
         </p>
-      </div>
 
-      <!-- Card Date -->
-      <p id="card-date">Published 6 June 2024</p>
-      <!-- Card Title -->
-      <h2 id="card-title">HTML & CSS foundations</h2>
-      <!-- Card Message -->
-      <p id="card-message" class="container">
-        These languages are the backbone of every website, defining structure,
-        content, and presentation
+        <div class="pfp">
+          <img
+            src="assets/images/pfp.jpeg"
+            id="pfp-author"
+            height="40px"
+            width="40px"
+            style="border-radius: 2rem"
+            alt="pfp of author"
+          />
+        </div>
+
+        <!-- Card Author Pfp -->
+        <p class="card-author"><strong>Sabeer Junaid</strong></p>
+      </div>
+      <!-- watermark -->
+      <p class="watermark">
+        Challenge by Frontend Mentor. Coded by
+        <a href="https://github.com/Sabeer-Junaid">Sabeer Junaid.</a>
       </p>
-
-      <div class="pfp">
-        <img
-          src="assets/images/pfp.jpeg"
-          id="pfp-author"
-          height="40px"
-          width="40px"
-          style="border-radius: 2rem"
-        />
-      </div>
-
-      <!-- Card Author Pfp -->
-      <p id="card-author"><strong>Sabeer Junaid</strong></p>
-    </div>
-    <!-- watermark -->
-    <p id="watermark">
-      Challenge by Frontend Mentor. Coded by
-      <a href="https://github.com/Sabeer-Junaid">Sabeer Junaid.</a>
-    </p>
+    </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
